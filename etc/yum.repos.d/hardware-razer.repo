@@ -1,0 +1,8 @@
+[hardware-razer]
+name=Razer hardware support for Evernight Vista $releasever
+type=rpm-md
+baseurl=https://download.opensuse.org/repositories/hardware:/razer/Fedora_$releasever/
+enabled=1
+gpgcheck=1
+gpgkey=https://download.opensuse.org/repositories/hardware:/razer/Fedora_$releasever/repodata/repomd.xml.key
+

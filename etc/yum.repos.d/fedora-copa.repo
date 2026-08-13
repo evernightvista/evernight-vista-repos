@@ -1,0 +1,10 @@
+[fedora-copa]
+name=fedora-copa for Evernight Vista $releasever - $basearch
+baseurl=https://download.copr.fedorainfracloud.org/results/evernightvista/fedora-copa/fedora-$releasever-$basearch/
+type=rpm-md
+skip_if_unavailable=True
+gpgcheck=1
+gpgkey=https://download.copr.fedorainfracloud.org/results/evernightvista/fedora-copa/pubkey.gpg
+repo_gpgcheck=0
+enabled=1
+enabled_metadata=1
