@@ -7,7 +7,7 @@ enabled_metadata=0
 type=rpm-md
 gpgcheck=1
 repo_gpgcheck=0
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-$releasever
+gpgkey=file:///usr/share/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-$releasever
 
 [rpmfusion-free-updates-testing-debuginfo]
 name=RPM Fusion for Evernight Vista $releasever - Free - Test Updates Debug
@@ -17,7 +17,7 @@ enabled=0
 type=rpm-md
 gpgcheck=1
 repo_gpgcheck=0
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-$releasever
+gpgkey=file:///usr/share/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-$releasever
 
 [rpmfusion-free-updates-testing-source]
 name=RPM Fusion for Evernight Vista $releasever - Free - Test Updates Source
@@ -27,5 +27,5 @@ enabled=0
 type=rpm-md
 gpgcheck=1
 repo_gpgcheck=0
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-$releasever
+gpgkey=file:///usr/share/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-$releasever
 
