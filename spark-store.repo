@@ -1,6 +1,6 @@
 [spark-store]
 name=Spark Store for Evernight Vista $releasever
-baseurl=https://download.copr.fedorainfracloud.org/results/xmp360/spark-store/fedora-43-$basearch/
+baseurl=https://download.copr.fedorainfracloud.org/results/xmp360/spark-store/fedora-$releasever-$basearch/
 type=rpm-md
 skip_if_unavailable=True
 gpgcheck=1
