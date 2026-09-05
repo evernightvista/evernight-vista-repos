@@ -1,6 +1,6 @@
 [terra]
 name=Terra for Evernight Vista $releasever
-baseurl=https://mirror.freedif.org/ultramarine/terra$releasever
+baseurl=https://mirror4.krfoss.org/fyralabs/terra$releasever
 #metalink=https://tetsudou.fyralabs.com/metalink?repo=terra$releasever&arch=$basearch
 metadata_expire=6h
 type=rpm
@@ -12,7 +12,7 @@ enabled_metadata=1
 
 [terra-source]
 name=Terra for Evernight Vista $releasever - Source
-#baseurl=https://mirror.freedif.org/ultramarine/terra$releasever-source
+#baseurl=https://mirror4.krfoss.org/fyralabs/terra$releasever-source
 metalink=https://tetsudou.fyralabs.com/metalink?repo=terra$releasever-source&arch=$basearch
 metadata_expire=6h
 type=rpm
@@ -22,21 +22,21 @@ repo_gpgcheck=0
 enabled=0
 enabled_metadata=0
 
-[terra-extra]
-name=Terra Extra for Evernight Vista $releasever
-baseurl=https://mirror.freedif.org/ultramarine/terra$releasever-extras
+[terra-extras]
+name=Terra Extras for Evernight Vista $releasever
+baseurl=https://mirror4.krfoss.org/fyralabs/terra$releasever-extras
 #metalink=https://tetsudou.fyralabs.com/metalink?repo=terra$releasever-extras&arch=$basearch
 metadata_expire=6h
 type=rpm
 gpgcheck=0
-gpgkey=file:///usr/share/pki/rpm-gpg/RPM-GPG-KEY-terra$releasever-extra
+gpgkey=file:///usr/share/pki/rpm-gpg/RPM-GPG-KEY-terra$releasever-extras
 repo_gpgcheck=0
 enabled=1
 enabled_metadata=1
 
 [terra-mesa]
 name=Terra Mesa for Evernight Vista $releasever
-baseurl=https://mirror.freedif.org/ultramarine/terra$releasever-mesa
+baseurl=https://mirror4.krfoss.org/fyralabs/terra$releasever-mesa
 #metalink=https://tetsudou.fyralabs.com/metalink?repo=terra$releasever-mesa&arch=$basearch
 metadata_expire=6h
 type=rpm
@@ -48,7 +48,7 @@ enabled_metadata=1
 
 [terra-nvidia]
 name=Terra NVIDIA for Evernight Vista $releasever
-baseurl=https://mirror.freedif.org/ultramarine/terra$releasever-nvidia
+baseurl=https://mirror4.krfoss.org/fyralabs/terra$releasever-nvidia
 #metalink=https://tetsudou.fyralabs.com/metalink?repo=terra$releasever-nvidia&arch=$basearch
 metadata_expire=6h
 type=rpm
