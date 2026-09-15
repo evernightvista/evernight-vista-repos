@@ -1,0 +1,11 @@
+[kde6-beta]
+name=KDE Plasma 6 Beta for Evernight Vista $releasever - $basearch
+baseurl=https://download.copr.fedorainfracloud.org/results/solopasha/kde6-beta/fedora-$releasever-$basearch/
+type=rpm-md
+skip_if_unavailable=True
+gpgcheck=1
+gpgkey=https://download.copr.fedorainfracloud.org/results/solopasha/kde6-beta/pubkey.gpg
+repo_gpgcheck=0
+enabled=1
+enabled_metadata=1
+priority=97
