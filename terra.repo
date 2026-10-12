@@ -33,6 +33,7 @@ gpgkey=file:///usr/share/pki/rpm-gpg/RPM-GPG-KEY-terra$releasever-extras
 repo_gpgcheck=0
 enabled=1
 enabled_metadata=1
+exclude=uresourced-dmemcg
 
 [terra-mesa]
 name=Terra Mesa for Evernight Vista $releasever
