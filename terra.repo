@@ -1,6 +1,6 @@
 [terra]
 name=Terra for Evernight Vista $releasever
-baseurl=https://mirror4.krfoss.org/fyralabs/terra$releasever
+baseurl=https://repos.fyralabs.com/terra$releasever
 #metalink=https://tetsudou.fyralabs.com/metalink?repo=terra$releasever&arch=$basearch
 metadata_expire=6h
 type=rpm
@@ -12,7 +12,7 @@ enabled_metadata=1
 
 [terra-source]
 name=Terra for Evernight Vista $releasever - Source
-#baseurl=https://mirror4.krfoss.org/fyralabs/terra$releasever-source
+#baseurl=https://repos.fyralabs.com/terra$releasever-source
 metalink=https://tetsudou.fyralabs.com/metalink?repo=terra$releasever-source&arch=$basearch
 metadata_expire=6h
 type=rpm
@@ -24,7 +24,7 @@ enabled_metadata=0
 
 [terra-extras]
 name=Terra Extras for Evernight Vista $releasever
-baseurl=https://mirror4.krfoss.org/fyralabs/terra$releasever-extras
+baseurl=https://repos.fyralabs.com/terra$releasever-extras
 #metalink=https://tetsudou.fyralabs.com/metalink?repo=terra$releasever-extras&arch=$basearch
 metadata_expire=6h
 type=rpm
@@ -37,7 +37,7 @@ exclude=uresourced-dmemcg
 
 [terra-mesa]
 name=Terra Mesa for Evernight Vista $releasever
-baseurl=https://mirror4.krfoss.org/fyralabs/terra$releasever-mesa
+baseurl=https://repos.fyralabs.com/terra$releasever-mesa
 #metalink=https://tetsudou.fyralabs.com/metalink?repo=terra$releasever-mesa&arch=$basearch
 metadata_expire=6h
 type=rpm
@@ -49,7 +49,7 @@ enabled_metadata=1
 
 [terra-nvidia]
 name=Terra NVIDIA for Evernight Vista $releasever
-baseurl=https://mirror4.krfoss.org/fyralabs/terra$releasever-nvidia
+baseurl=https://repos.fyralabs.com/terra$releasever-nvidia
 #metalink=https://tetsudou.fyralabs.com/metalink?repo=terra$releasever-nvidia&arch=$basearch
 metadata_expire=6h
 type=rpm
